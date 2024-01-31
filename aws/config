@@ -1,0 +1,6 @@
+[defaul]
+region = us-east-2
+
+[profile ec2-full-access]
+    role_arn = arn:aws:iam::637423357503:role/EC2-Full-Access
+    source_profile = default
